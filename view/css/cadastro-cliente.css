@@ -1,0 +1,104 @@
+
+#titleTooltip{
+    font-weight:bold;
+    position:absolute;
+    border-radius:3px;
+    color:white;
+    background:#1E1E1E;
+    padding:5px 15px;
+    font-family:monospace;
+    z-index:10;
+    text-transform:uppercase;
+    font-size:13px;
+    max-width:180px;
+    text-align:center;
+    display:none;
+}
+
+#caixaCentro form label{
+	display:block;
+	border-radius:1px 1px 0px 0px;
+	width:330px;
+	text-align:left;
+	padding:3px 3px 0px 6px;
+	color:#999;
+}
+
+#caixaCentro div #textoInput:before{
+    content:'';
+    position:absolute;
+    right:100%;
+    top:20%;
+    border:6px solid transparent;
+    border-right-color:#000;
+}
+
+#caixaCentro div #textoInput{
+    position:absolute;
+    left:97%;
+    top:10px;
+    z-index:2;
+    background:#000;
+    width:200px;
+    padding:8px 10px;
+    border-radius:3px;
+    color:white;
+    text-align:left;
+    text-transform:uppercase;
+    font-size:10px;
+}
+
+#caixaCentro div a:not(#textoInput){
+    text-decoration:none;
+    margin-left:50px;	
+    color:#555;
+}#caixaCentro a:not(#textoInput):hover{
+    color:#000;
+    text-shadow: 1px 1px rgba(0,0,0,0.1);
+}
+
+#caixaCentro div{
+    position:relative;
+    font-size:12px;
+	display:inline-block;
+	margin:10px;
+}
+#caixaCentro form div img{
+    width:20px;
+    position:absolute;
+    right:10px;
+    top:10px
+}
+
+#caixaCentro form input[placeholder]{
+	width:80%;
+    padding:8px 8px;
+    padding-right:40px;
+    outline:none;
+    border:1px solid #dedede;
+    background-color:rgba(0,0,0,0.02);
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.09);
+	font-size:12px;
+}
+
+#caixaCentro form button[type=button]{
+	width:300px;
+    padding:8px 20px;
+    outline:none;
+    border:1px solid rgba(0,0,0,0.1);
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:15px;
+    color:white;
+    text-shadow: 1px 1px rgba(0,0,0,0.4);
+    box-shadow: 1px 1px rgba(0,0,0,0.2);
+    cursor:pointer;
+    background:#444;
+}
+#caixaCentro form button[type=button]:active{
+    background:#000;
+	transition-duration:0.2s;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+
